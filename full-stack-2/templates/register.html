@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="first_name">First Name: </label>
+        <input type="text" name="first_name">
+        <br>
+        <label for="last_name">Last Name: </label>
+        <input type="text" name="last_name">
+        <br>
+        <label for="user_name">User Name: </label>
+        <input type="text" name="user_name">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email">
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="{{ url_for('index') }}">Already registered? login here</a>
+</body>
+</html>
